@@ -89,12 +89,11 @@ export default class SocialInteractionDetails extends React.Component {
 
           <p>
             Remember, you and your teammates have{" "}
-            {Math.ceil(treatment.stageDuration / 60.0)} minutes in each task to
-            find a room assignment plan. You will automatically{" "}
-            <strong>progress to the next task when the time is up</strong>.
+            {Math.ceil(treatment.stageDuration / 60.0)} minutes in the task to
+            find a room assignment plan. 
           </p>
           <p>
-            However, you can always indicate whether you are satisfied with the
+            You can always indicate whether you are satisfied with the
             answer before the timer is up (indicated by the check mark on the
             avatar). Click on the "Satisfied" button in the following example
             and see what happens!
@@ -143,9 +142,7 @@ export default class SocialInteractionDetails extends React.Component {
             <strong>
               If all team members are satisfied with the answer before the timer
               is up, the answer will be submitted and your team will proceed to
-              the next task. If the "Satisfied" button is unclickable (i.e.,
-              inactive) for you for more than 10 seconds, try to refresh the
-              page.
+              the next portion of the study
             </strong>
             .
           </p>

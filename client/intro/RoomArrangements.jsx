@@ -7,27 +7,23 @@ export default class RoomArrangements extends React.Component {
     return (
       <Centered>
         <div className="instructions">
-          <h1 className={"bp3-heading"}> Task Room Arrangements</h1>
+          <h1 className={"bp3-heading"}> What is a neighbor?</h1>
           <p>
-            Depending on the number of rooms, number of students, and your
-            screen/browser size and resolution, the arrangement of the rooms
-            might "look" different on your screen.
+           
           </p>
 
           <div className="image">
-            <img src="/experiment/instruction-room-arrangements.svg" />
+            {/*<img src="/experiment/instruction-room-arrangements.svg" />*/}
+          <img src="/experiment/superhard-arrangement.png" />
           </div>
 
           <p>
-            In all cases and for any arrangement that appears for you, you only
-            need to consider the numbers on those rooms when addressing
-            constraints in a task. In particular,{" "}
+            {" "}
             <strong>
-              "neighbor" is defined as rooms with consecutive numbers
-            </strong>
-            . For example, regardless of the arrangement you have on the screen,
-            Room 102 is next door to both Room 101 and Room 103. On the other
-            hand, Room 101 is only next door to Room 102.
+             A "neighbor" is defined as rooms with consecutive numbers (E.g., 1...2...3...4...).
+            </strong> </p>
+            <p>For example: Room 102 is a neighbor of Room 101 and Room 103, but not Room 104,
+             Room 101 is only a neighbor of Room 102, not Room 103.
           </p>
 
           <button

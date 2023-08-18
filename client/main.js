@@ -65,9 +65,9 @@ Empirica.exitSteps((game, player) => {
     return [Sorry];
   }
   if (game.players.length > 1) {
-    return [GroupExitSurvey, Thanks];
+    return [Thanks];
   } else {
-    return [IndividualExitSurvey, Thanks];
+    return [Thanks];
   }
 });
 

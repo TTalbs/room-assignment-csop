@@ -108,7 +108,7 @@ export default class Task extends React.Component {
             {stage.name === "practice" ? (
               <p>
                 <strong style={{ color: "blue" }}>
-                  This is practice round and the Score will not count
+              
                 </strong>
               </p>
             ) : (

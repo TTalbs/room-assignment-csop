@@ -20,10 +20,7 @@ export default class ConstraintsDetails extends React.Component {
             some students must be neighbors.
           </p>
           <p>
-            These constraints vary from task to task, and there are no
-            additional constraints you need to respect other than the ones
-            stated (e.g., feel free to leave one room empty if no constraint
-            requires you to assign at least one student in each room).
+         
           </p>
 
           <p>

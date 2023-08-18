@@ -52,9 +52,9 @@ export default class TaskDetails extends React.Component {
     return (
       <Centered>
         <div className="instructions">
-          <h1 className={"bp3-heading"}> Room Assignment Tasks </h1>
+          <h1 className={"bp3-heading"}> Room Assignment Game </h1>
           <p>
-            In each task (or round), you will be asked to{" "}
+            In this game, you will be asked to{" "}
             <strong>assign students to dorm rooms</strong>. Students express
             their degree of satisfaction for living in a room as a number
             between 0 and 100 (the higher the rating, the more satisfied the
