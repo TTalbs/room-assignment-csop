@@ -285,6 +285,7 @@ export default class GroupQuiz extends React.Component {
               Back to instructions
             </button>
             <button type="submit" className="bp3-button bp3-intent-primary">
+             <h5 className="bp3-heading">STOP HERE. Do not press submit until the researcher instructs you to.</h5>
               Submit
               <span className="bp3-icon-standard bp3-icon-key-enter bp3-align-right" />
             </button>

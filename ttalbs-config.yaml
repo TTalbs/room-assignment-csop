@@ -2,26 +2,32 @@ treatments:
   - name: solo
     factorIds:
       - yLgJTwkJB3dh4jh3r
-      #- A6nriq6uaerSLGxv2
       - TrGNc93vtJQpYZ8bs
-      - JyBPo3u4CPgAJck4b
-      #- CZCRnvc4LJh5cyHuW
+      - NG95vKRiYSdXCan69
       - iZyssrDWEYhnc8Q7B
       - RhXZkZdj5fYbQNssb
       - nNqv434CrsBRjkPLE
-      - qA4rvmXk3JBrPiMae
-  - name: team
+      - 6LGJvGh7XW6w6o9cD
+  - name: team_15min
     factorIds:
       - DjKCDtyNpyHu7XvP9
-      #- A6nriq6uaerSLGxv2
       - YgXs6readiv6uYYBi
-      - JyBPo3u4CPgAJck4b
+      - NG95vKRiYSdXCan69
       - iZyssrDWEYhnc8Q7B
       - RhXZkZdj5fYbQNssb
       - nNqv434CrsBRjkPLE
-      - qA4rvmXk3JBrPiMae
+      - 6LGJvGh7XW6w6o9cD
+  - name: team_12min
+    factorIds:
+      - DjKCDtyNpyHu7XvP9
+      - B25pQPG8rK3AKQdQD
+      - t8JscYzadj76bngCD
+      - tXtK9D88FvXWay7kQ
+      - nNqv434CrsBRjkPLE
+      - 3Zh8pnmycDJGprh86
+      - NG95vKRiYSdXCan69
 factorTypes:
-  - _id: a39HzKWMN2BqMKeLJ
+  - _id: FNcCiNLrbTT5ELAKe
     name: playerCount
     description: The Number of players participating in the given game.
     required: true
@@ -72,34 +78,34 @@ factorTypes:
     required: false
     type: Boolean
 factors:
-  - _id: yLgJTwkJB3dh4jh3r
-    name: solo
-    value: 1
-    factorTypeId: a39HzKWMN2BqMKeLJ
-  - _id: DjKCDtyNpyHu7XvP9
-    name: team
-    value: 4
-    factorTypeId: a39HzKWMN2BqMKeLJ
-  - _id: CZCRnvc4LJh5cyHuW
+  - _id: YP3iwfYbeAXRykfWC
     name: 'true'
     value: true
     factorTypeId: YuxymxgdicnLpwqQq
-  - _id: JyBPo3u4CPgAJck4b
+  - _id: NG95vKRiYSdXCan69
     name: 'false'
     value: false
     factorTypeId: YuxymxgdicnLpwqQq
+  - _id: 6LGJvGh7XW6w6o9cD
+    name: 'true'
+    value: true
+    factorTypeId: gyMzogFBfCYjqZmz3
+  - _id: 3Zh8pnmycDJGprh86
+    name: 'false'
+    value: false
+    factorTypeId: gyMzogFBfCYjqZmz3
+  - _id: yLgJTwkJB3dh4jh3r
+    name: solo
+    value: 1
+    factorTypeId: FNcCiNLrbTT5ELAKe
+  - _id: DjKCDtyNpyHu7XvP9
+    name: team
+    value: 4
+    factorTypeId: FNcCiNLrbTT5ELAKe
   - _id: A6nriq6uaerSLGxv2
     name: 5min
     value: 300
     factorTypeId: ZzHiS2M4TFGPQRPsL
-  - _id: qA4rvmXk3JBrPiMae
-    name: 'true'
-    value: true
-    factorTypeId: gyMzogFBfCYjqZmz3
-  - _id: 4mTFPLcXRgMkJECYE
-    name: 'false'
-    value: false
-    factorTypeId: gyMzogFBfCYjqZmz3
   - _id: t8JscYzadj76bngCD
     name: none
     value: 0
@@ -127,6 +133,10 @@ factors:
   - _id: YgXs6readiv6uYYBi
     name: 15min
     value: 900
+    factorTypeId: ZzHiS2M4TFGPQRPsL
+  - _id: B25pQPG8rK3AKQdQD
+    name: 12min
+    value: 720
     factorTypeId: ZzHiS2M4TFGPQRPsL
 lobbyConfigs:
   - name: endStudy

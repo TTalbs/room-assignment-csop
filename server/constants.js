@@ -259,7 +259,7 @@ export const stepOneData = [
       }
     },
     _id: "5",
-    difficulty: "Super Hard",
+    difficulty: "Room Assignment Game",//"Super Hard",
     students: [
       "A",
       "B",
@@ -294,7 +294,12 @@ export const stepOneData = [
         pair: ["A", "J"],
         text: "can't live in the same room or be neighbors"
       },
-      { _id: 2, type: 2, pair: ["B", "F"], text: "must be neighbors" },
+      { 
+        _id: 2, 
+        type: 2, 
+        pair: ["B", "F"], 
+        text: "must be neighbors" 
+      },
       {
         _id: 3,
         type: 0,
@@ -307,7 +312,12 @@ export const stepOneData = [
         pair: ["B", "P"],
         text: "can't live in the same room or be neighbors"
       },
-      { _id: 5, type: 2, pair: ["C", "E"], text: "must be neighbors" },
+      { 
+        _id: 5, 
+        type: 2, 
+        pair: ["C", "E"], 
+        text: "must be neighbors" 
+      },
       {
         _id: 6,
         type: 1,
@@ -332,7 +342,12 @@ export const stepOneData = [
         pair: ["F", "I"],
         text: "can't live in the same room"
       },
-      { _id: 10, type: 2, pair: ["G", "J"], text: "must be neighbors" },
+      { 
+        _id: 10, 
+        type: 2, 
+        pair: ["G", "J"], 
+        text: "must be neighbors" 
+      },
       {
         _id: 11,
         type: 3,
@@ -345,7 +360,12 @@ export const stepOneData = [
         pair: ["J", "K"],
         text: "can't live in the same room or be neighbors"
       },
-      { _id: 13, type: 2, pair: ["K", "R"], text: "must be neighbors" },
+      { 
+        _id: 13, 
+        type: 2, 
+        pair: ["K", "R"], 
+        text: "must be neighbors" 
+      },
       {
         _id: 14,
         type: 3,
@@ -364,7 +384,12 @@ export const stepOneData = [
         pair: ["N", "R"],
         text: "must live in the same room"
       },
-      { _id: 17, type: 2, pair: ["O", "P"], text: "must be neighbors" }
+      { 
+        _id: 17, 
+        type: 2, 
+        pair: ["O", "P"], 
+        text: "must be neighbors" 
+      }
     ],
     optimal: 996,
     computeTime: 280.84,
@@ -1013,7 +1038,7 @@ export const stepTwoData = [
       }
     },
     _id: "5",
-    difficulty: "Super Hard",
+    difficulty: "Room Assignment Game",//"Super Hard",
     students: [
       "A",
       "B",

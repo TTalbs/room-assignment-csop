@@ -22,7 +22,10 @@ export default class Thanks extends React.Component {
             
             <hr />
             <div className="pt-non-ideal-state-description">
-              <a href="https://eccles.qualtrics.com/jfe/form/SV_d0VePiylkHMjaiG">Please click this link to begin the questionnaire.</a>
+              <a href="https://eccles.qualtrics.com/jfe/form/SV_d0VePiylkHMjaiG" target="_blank" rel="noopener noreferrer">Please click this link to begin the questionnaire.</a>
+              <p></p>
+              As a reminder, your Participant ID is <em>{player.id}</em> and your color is <em>{player.get("name")}</em>.
+
             </div>
           </div>
         </div>

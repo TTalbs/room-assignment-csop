@@ -47,9 +47,33 @@ Empirica.onGameStart((game) => {
   ]; // similar to the color of the avatar
 
   players.forEach((player, i) => {
-    player.set("name", names[i]);
-    player.set("avatar", `/avatars/jdenticon/${avatarNames[i]}`);
-    player.set("nameColor", nameColor[i]);
+    //player.set("name", names[i]);
+    player.set("name", player.id.includes("A") ? 
+      ("Blue") : (
+        player.id.includes("B") ? 
+      ("Green") : ( 
+        player.id.includes("C") ? 
+      ("Red") : (
+        "Yellow")
+      )));
+    //player.set("avatar", `/avatars/jdenticon/${avatarNames[i]}`);
+    player.set("avatar", player.id.includes("A") ? 
+      (`/avatars/jdenticon/Colton`) : (
+        player.id.includes("B") ? 
+      (`/avatars/jdenticon/Aaron`) : ( 
+        player.id.includes("C") ? 
+      (`/avatars/jdenticon/Jill`) : (
+        `/avatars/jdenticon/Tristan`)
+      )));
+    //player.set("nameColor", nameColor[i]);
+    player.set("nameColor", player.id.includes("A") ? 
+      ("#3D50B7") : (
+        player.id.includes("B") ? 
+      ("#70A945") : ( 
+        player.id.includes("C") ? 
+      ("#DER5F4") : (
+        "#A59144")
+      )));
     player.set("cumulativeScore", 0);
     player.set("bonus", 0);
   });
@@ -75,7 +99,7 @@ Empirica.onStageStart((game, round, stage) => {
       verb: "roundStarted",
       roundId:
         stage.name === "practice"
-          ? stage.name + " (will not count towards your score)"
+          ? "one"
           : stage.name,
       at: new Date(),
     },

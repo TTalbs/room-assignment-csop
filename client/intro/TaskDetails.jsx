@@ -64,7 +64,7 @@ export default class TaskDetails extends React.Component {
           <p>
             You are provided with a handy <strong>drag and drop</strong> tool to
             solve the problem. To assign a student into a room, drag the icon of
-            that student and drop it into the room. Try this example:
+            that student and drop it into the room. <strong>Try this example:</strong>
           </p>
 
           <div className="task">

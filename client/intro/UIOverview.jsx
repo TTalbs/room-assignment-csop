@@ -25,13 +25,11 @@ export default class UIOverview extends React.Component {
           </div>
 
           <p>
-            To finish: All team members must click the green "satisfied" button independently. Otherwise, you will
-            have to wait for the time to run out. 
+            The game ends when either time runs out, or All team members click the green "satisfied" button independently.
           </p>
 
           <p>
-            Now you know where everything goes and are ready to take the short quiz! Good
-            luck.
+            Now you know where everything goes and are ready to take the short quiz! 
           </p>
 
           <button

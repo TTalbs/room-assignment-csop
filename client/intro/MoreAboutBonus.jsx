@@ -42,10 +42,8 @@ export default class MoreAboutBonus extends React.Component {
 
           {social ? (
             <p>
-              As a team, <strong>you will submit ONE answer for the task</strong>{" "}
-              and therefore{" "}
               <strong>
-                all team members will have the same score
+               IMPORTANT: MAXIMUM SCORE FOR THIS GAME IS: 996!
               </strong>.
             </p>
           ) : null}

@@ -24,8 +24,7 @@ export default class ConstraintsDetails extends React.Component {
           </p>
 
           <p>
-            Try this example again and see what will happen if a constraint is
-            violated:
+            Try this example again to visualize a violated constraint, (but note that violated constraints will not be highlighted red in actual game play).
           </p>
 
           <div className="task">
